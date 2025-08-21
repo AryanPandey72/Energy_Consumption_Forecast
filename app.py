@@ -10,7 +10,7 @@ from tensorflow.keras import models
 from io import BytesIO
 
 # Import your existing functions
-from your_module import (  # replace 'your_module' with the filename of your project script without .py
+from forecast import (  # replace 'your_module' with the filename of your project script without .py
     load_and_prepare_household_power,
     plot_eda,
     train_and_evaluate,
